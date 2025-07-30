@@ -78,7 +78,7 @@ if selected == 'Diabetes Prediction':
             else:
                 diab_diagnosis = 'The person is Not Diabetic'
         except:
-            diab_diagnosis = ⚠️ Please enter all input fields as valid numbers.'
+            diab_diagnosis = Please enter all input fields as valid numbers.'
 
     st.success(diab_diagnosis)
 
@@ -139,7 +139,7 @@ elif selected == 'Heart Disease Prediction':
             else:
                 heart_diagnosis = 'The person does NOT have Heart Disease'
         except:
-            heart_diagnosis = '⚠️ Please enter all input fields as valid numbers.'
+            heart_diagnosis = 'Please enter all input fields as valid numbers.'
 
     st.success(heart_diagnosis)
 
@@ -195,6 +195,7 @@ elif selected == 'Parkinsons Prediction':
             else:
                 parkinsons_diagnosis = "The person does NOT have Parkinson's Disease"
         except:
-            parkinsons_diagnosis = "⚠️ Please enter all input fields as valid numbers."
+            parkinsons_diagnosis = "
+            Please enter all input fields as valid numbers."
 
     st.success(parkinsons_diagnosis)
